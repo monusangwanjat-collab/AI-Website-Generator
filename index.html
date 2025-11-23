@@ -27,7 +27,7 @@ async function generate() {
 
     document.getElementById("output").innerText = "Generating...";
 
-    const result = await fetch("http://localhost:3000/generate", {
+    const result = await fetch("https://YOUR-RENDER-URL.onrender.com/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ apiKey, prompt })
@@ -40,5 +40,6 @@ async function generate() {
 
 </body>
 </html>
+
 
 
