@@ -1,6 +1,7 @@
 {
   "name": "ai-website-generator",
   "version": "1.0.0",
+  "description": "AI Website Generator using Gemini",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -8,11 +9,8 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1"
   }
 }
-
-
-
-
-
